@@ -2,7 +2,7 @@ FROM php:7.4-fpm-buster
 SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
 
 # timezone environment
-ENV TZ=UTC \
+ENV TZ='Asia/Tokyo' \
   # locale
   LANG=en_US.UTF-8 \
   LANGUAGE=en_US:en \
